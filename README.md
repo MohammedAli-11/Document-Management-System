@@ -1,2 +1,15 @@
-# Document-Management-System-Project
-In my CSE 327 Software Engineering course we gave a project to create an application for the finance department of Plan International Limited, they were trying to digitize all their documents, so our trainers gave us to build the project and we tried our best to add to the project. Best for implementation, it is an incomplete project but we will improve it in the future. My Coursemate @TanvirSadar, @AkibDewan , @KaziSaratIslam contributed to this project 
+## Document  Managerment System
+
+## Install and createsuperuser
+    $python -m venv project-name
+    $project-name\Scripts\activate.bat
+    $ pip install -r requirements.txt
+    $ pythn manage.py migrate
+    $ python manage.py createsuperuser
+    $ email: username@gmail.com
+    $ username: username
+    $ password: 0
+    $ password confirmation: 0
+    $ python manage.py runserver
+    To activate manager account login with admin and activate menager
+
